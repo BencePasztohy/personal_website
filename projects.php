@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Projektek</title>
+    <title>Projektek <?php include('title.php'); ?></title>
 </head>
 
 <body id="bg-img">
@@ -44,7 +44,7 @@
             <h2>Portfolio Weboldal</h2>
         </div>
         <div>
-            <a href="https://github.com/BencePasztohy/portfolio-website" target="_blank" class="button">GitHub Oldal</a>
+            <a href="https://github.com/BencePasztohy/personal_website" target="_blank" class="button">GitHub Oldal</a>
         </div>
         <div>
             <a href="projects/portfolio_website.php" class="button">Részletek</a>

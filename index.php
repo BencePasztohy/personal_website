@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Kezdőlap</title>
+    <title>Kezdőlap <?php include('title.php'); ?></title>
 </head>
 
-<body id="bg-img">
+<body id="bg-img mainpage">
     <?php include("header.html"); ?>
 
     <main id="main-page">
