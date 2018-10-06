@@ -41,7 +41,7 @@
 
     <div class="project">
         <div>
-            <h2>Portfolio Weboldal</h2>
+            <h2>Portfólió Weboldal</h2>
         </div>
         <div>
             <a href="https://github.com/BencePasztohy/personal_website" target="_blank" class="button">GitHub Oldal</a>

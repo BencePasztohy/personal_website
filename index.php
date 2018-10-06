@@ -15,7 +15,7 @@
     <main id="main-page">
         <h1>Pásztohy <span class="secondary">Bence</span></h1>
         <h2>Kezdő Webfejlesztő</h2>
-        <h3>Személyes Portfolio Oldal</h3>
+        <h3>Személyes Portfólió Oldal</h3>
     </main>
 
     <script src="js/main.js"></script>

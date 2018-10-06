@@ -154,6 +154,8 @@ td {
 
 .inline-link {
   color: #ffd900; }
+  .inline-link:hover {
+    color: #ffe866; }
 
 .item {
   border: 2px solid #ffd900;
