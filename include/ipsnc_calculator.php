@@ -10,13 +10,13 @@
 </head>
 
 <body id="bg-img">
-<?php include("../header.html"); ?>
+<?php include("../hun/header.html"); ?>
 <main id="php_subnet_calc">
 	<div class="subnet">
 		<?php
 		
 		function backButton() {
-			echo '<a href="../projects/php_subnet_calc.php" class="button">Vissza</a>';
+			echo '<a href="../hun/projects/php_subnet_calc.php" class="button">Vissza</a>';
 		}
 		function safety($input) {
 			$input = trim($input);

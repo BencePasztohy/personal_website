@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <title>Bináris Óra  <?php include('../title.php'); ?></title>
+    <?php include('../../include/head.html'); ?>
+    <title>Bináris Óra <?php include('../title.html'); ?></title>
 </head>
 
 <body id="bg-img">
-<?php include("../header.html"); ?>
-<main id="project-main">
+    <?php include("../header.html"); ?>
+
+    <main id="project-main">
 	<div class="project-container">
 		<div class="demo">
 			<table>
@@ -53,12 +49,11 @@
 			<p>BCD alapú, Javascriptben írt bináris óra. A script az oldal betültése után automatikusan elindul. A fő függvény másodpercenként lefut, és egy bizonyos, a háttérszínt megváltoztató CSS osztályt ad a megfelelő celláknak.</p>
 			<p>Implementáció: Miután beillesztjük a táblázatot tartalmazó HTML kódot az oldalba, a CSS osztályokat a CSS fájlba és belinkeljük a JS fájlt az oldal aljára, az óra használatra kész. Minden módosítható stíluselem megtalálható a CSS fájlban.</p>
 			<a href="https://github.com/BencePasztohy/Binary-Clock" target="_blank" class="button">GitHub Oldal</a>
-			<a href="../projects.php" class="button">Vissza</a>
+			<a href="http://localhost/portfolio.ws/projects.php" class="button">Vissza</a>
 		</div>
 	</div>
 </main>
-<script src="../js/binary_clock.js"></script>
-<script src="../js/main.js"></script>
+    <script src="../../js/binary_clock.js"></script>
+    <script src="../../js/main.js"></script>
 </body>
-
 </html>

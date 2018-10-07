@@ -1,1 +1,0 @@
-<?php echo "- Pásztohy Bence Weboldala"; ?>

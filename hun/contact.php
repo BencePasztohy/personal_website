@@ -1,16 +1,16 @@
-<html lang="en">
+<html lang="hu">
 <head>
     <?php include('include/head.html'); ?>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <title>Contact <?php include('eng/title.html'); ?></title>
+    <title>Rólam <?php include('hun/title.html'); ?></title>
 </head>
 
 <body id="bg-img">
-    <?php include("eng/header.html"); ?>
+    <?php include("hun/header.html"); ?>
 
     <main id="contact">
         <?php include('include/lang-selector.php'); ?>
-        <h1>Contact <span class="secondary">Me</span></h1>
+        <h1><span class="secondary">Kapcsolat</span></h1>
         <div class="links">
             <a href="mailto:pasztohy.bence@gmail.com" target="_blank">
                 <div>
