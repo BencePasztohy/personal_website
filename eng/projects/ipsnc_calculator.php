@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <title>Eredmény <?php include('../title.php'); ?></title>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <title>Result <?php include('../title.html'); ?></title>
 </head>
 
 <body id="bg-img">
-<?php include("../hun/header.html"); ?>
+<?php include("../header.php"); ?>
 <main id="php_subnet_calc">
 	<div class="subnet">
 		<?php
 		
 		function backButton() {
-			echo '<a href="../hun/projects/php_subnet_calc.php" class="button">Vissza</a>';
+			echo '<a href="http://localhost/portfolio.ws/eng/projects/php_subnet_calc.php?lang=eng" class="button">Back</a>';
 		}
 		function safety($input) {
 			$input = trim($input);
@@ -27,14 +27,14 @@
 		function validateIp($input) {
 			if ($input == "") {
 				// echo "No IP or SM entered.<br>";
-				echo "Üres IP vagy SM mező.<br>";
+				echo "No IP or SM entered.<br>";
 				backButton();
 				die;
 			} else if (filter_var($input, FILTER_VALIDATE_IP)) {
 				return $input;
 			} else {
 				// echo "$input is not a valid IP address.<br>";
-				echo "$input nem egy valós IP cím.<br>";
+				echo "$input is not a valid IP address.<br>";
 				backButton();
 				die;
 			}
@@ -42,17 +42,17 @@
 		function validateSm($input) {
 			if ($input == "") {
 				// echo "No IP or SM entered.<br>";
-				echo "Üres IP vagy SM mező.<br>";
+				echo "No IP or SM entered.<br>";
 				backButton();
 				die;
 			} else if ($input < 1 || $input > 32) {
 				// echo "$input is not a valid Subnet Mask.<br>";
-				echo "$input nem egy valódi Alhálózati Maszk.<br>";
+				echo "$input is not a valid Subnet Mask.<br>";
 				backButton();
 				die;
 			} else if ($input > 30) {
 				// echo "No assignable addresses with Subnet Mask $input.<br>";
-				echo "$input. Alhálózati Maszkkal nincs kiosztható IP cím.<br>";
+				echo "No assignable addresses with Subnet Mask $input.<br>";
 				backButton();
 				die;
 			} else return $input;
@@ -361,44 +361,44 @@
 		//Display result
 		echo "<table>";
 		echo "<tr>";
-		echo "<td>Bevitt IP: </td>";
+		echo "<td>Entered IP: </td>";
 		echo "<td>".$input[0].".".$input[1].".".$input[2].".".$input[3]."</td>";
 		echo "</tr>";
 		
 		echo "<tr>";
-		echo "<td>Bevitt SM: ";
+		echo "<td>Entered SM: ";
 		echo "<td>".$input_sm."</td>";
 		echo "</tr>";
 
 		$number_of_addresses=pow(2,32-$input[4]);
 		echo "<tr>";
-		echo "<td>Kiosztható Címek: </td>";
+		echo "<td>Assignable addresses: </td>";
 		echo "<td>".number_format($number_of_addresses-2,0,' ',' ')."</td>";
 		echo "</tr>";
 
 		echo "<tr>";
-		echo "<td>Maszk: </td>";
+		echo "<td>Mask: </td>";
 		echo "<td>".$sm[0].".".$sm[1].".".$sm[2].".".$sm[3]. "</td>";
 		echo "</tr>";
 
 		echo "<tr>";
-		echo "<td>Alhálózat Címe: </td>";
+		echo "<td>Subnet address: </td>";
 		echo "<td>".bindec($first_ip[0]).".".bindec($first_ip[1]).".".bindec($first_ip[2]).".".bindec($first_ip[3])."</td>";
 		echo "</tr>";
 
 		echo "<tr>";
-		echo "<td>Első IP: </td>";
+		echo "<td>First IP: </td>";
 		echo "<td>".bindec($first_ip[0]).".".bindec($first_ip[1]).".".bindec($first_ip[2]).".".bindec($first_ip[3]+1)."</td>";
 		echo "</tr>";
 
 		$last_address=$last_ip[3]-1;
 		echo "<tr>";
-		echo "<td>Utolsó IP: </td>";
+		echo "<td>Last IP: </td>";
 		echo "<td>".$last_ip[0].".".$last_ip[1].".".$last_ip[2].".".$last_address."</td>";
 		echo "</tr>";
 
 		echo "<tr>";
-		echo "<td>Broadcast Cím: </td>";
+		echo "<td>Broadcast address: </td>";
 		echo "<td>".$last_ip[0].".".$last_ip[1].".".$last_ip[2].".".$last_ip[3]."</td>";
 		echo "</tr>";
 		echo "</table>";
@@ -407,7 +407,7 @@
 	</div>
 	<?php backButton(); ?>
 </main>
-<script src="../js/binary_clock.js"></script>
+<script src="../../js/binary_clock.js"></script>
 </body>
 
 </html>

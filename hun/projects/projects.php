@@ -5,10 +5,9 @@
 </head>
 
 <body id="bg-img">
-    <?php include("hun/header.html"); ?>
+    <?php include("hun/header.php"); ?>
 
     <main id="projects">
-        <?php include('include/lang-selector.php'); ?>
         <h1>Saját <span class="secondary">Projektek</span> </h1>
         <div class="container">
         

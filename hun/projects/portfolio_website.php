@@ -5,9 +5,10 @@
 </head>
 
 <body id="bg-img">
-    <?php include("../header.html"); ?>
+    <?php include("../header.php"); ?>
 
     <main id="project-main">
+    <?php include('../../include/lang-selector.php'); ?>
 	<div class="project-container">
 		<div class="demo">
             <img src="../images/portf_hun.png" alt="portf">

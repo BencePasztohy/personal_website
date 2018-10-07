@@ -5,7 +5,7 @@
 </head>
 
 <body id="bg-img">
-    <?php include("../header.html"); ?>
+    <?php include("../header.php"); ?>
 
     <main id="project-main">
 	<div class="project-container">

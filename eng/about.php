@@ -5,10 +5,9 @@
 </head>
 
 <body id="bg-img">
-    <?php include("eng/header.html"); ?>
+    <?php include("eng/header.php"); ?>
     
     <main id="about">
-        <?php include('include/lang-selector.php'); ?>
         <h1>About <span class="secondary">Me</span></h1>
         <p>Welcome to my portfolio page. My name is Bence Pásztohy, and I am an aspiring web developer. This website serves as a showcase of my experiences and general skills. In school I mainly studied IT and general computer science, but later I decided to pursue my dream of becoming a developer.</p>
         <p>The Projects page holds a few of my home projects that whished to include in my portfolio. Additional information regarding each can be found on their respective pages. The list includes this website too.</p>

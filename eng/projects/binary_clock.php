@@ -1,14 +1,13 @@
-<html lang="hu">
+<html lang="en">
 <head>
     <?php include('../../include/head.html'); ?>
-    <title>Bináris Óra <?php include('../title.html'); ?></title>
+    <title>Binary Clock <?php include('../title.html'); ?></title>
 </head>
 
 <body id="bg-img">
     <?php include("../header.php"); ?>
 
     <main id="project-main">
-	<?php include('../../include/lang-selector.php'); ?>
 	<div class="project-container">
 		<div class="demo">
 			<table>
@@ -42,15 +41,15 @@
 					<td id="1-4"></td>
 				</tr>
 			</table>
-			<p>Idő: <span id="time"></span></p>
+			<p>Time: <span id="time"></span></p>
 		</div>
 
 		<div class="explanation">
-			<h2>Bináris Óra</h2>
-			<p>BCD alapú, Javascriptben írt bináris óra. A script az oldal betültése után automatikusan elindul. A fő függvény másodpercenként lefut, és egy bizonyos, a háttérszínt megváltoztató CSS osztályt ad a megfelelő celláknak.</p>
-			<p>Implementáció: Miután beillesztjük a táblázatot tartalmazó HTML kódot az oldalba, a CSS osztályokat a CSS fájlba és belinkeljük a JS fájlt az oldal aljára, az óra használatra kész. Minden módosítható stíluselem megtalálható a CSS fájlban.</p>
-			<a href="https://github.com/BencePasztohy/Binary-Clock" target="_blank" class="button">GitHub Oldal</a>
-			<a href="http://localhost/portfolio.ws/projects.php" class="button">Vissza</a>
+            <h2>Binary Clock</h2>
+			<p>A BCD based binary clock, written in JavaScript. The whole main function cycles every second, and adds a certain class to each cell with a background property. It auto-starts on page load and begins showing the time. </p>
+			<p>Implementation: paste the HTML code into the page, the CSS into the CSS file, and link the JS at the bottom. The CSS has every styling options needed for a basic display. </p>
+			<a href="https://github.com/BencePasztohy/Binary-Clock" target="_blank" class="button">GitHub Page</a>
+			<a href="http://localhost/portfolio.ws/projects.php?lang=eng" class="button">Back</a>
 		</div>
 	</div>
 </main>

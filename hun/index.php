@@ -5,9 +5,10 @@
 </head>
 
 <body id="bg-img mainpage">
-    <?php include("hun/header.html"); ?>
+    <?php include("hun/header.php"); ?>
     <main id="main-page">
-    <?php include('include/lang-selector.php'); ?>
+    <?php  
+    ?>
         <h1>Pásztohy <span class="secondary">Bence</span></h1>
         <h2>Kezdő Webfejlesztő</h2>
         <h3>Személyes Portfólió Oldal</h3>

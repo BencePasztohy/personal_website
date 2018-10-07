@@ -6,10 +6,9 @@
 </head>
 
 <body id="bg-img">
-    <?php include("hun/header.html"); ?>
+    <?php include("hun/header.php"); ?>
 
     <main id="contact">
-        <?php include('include/lang-selector.php'); ?>
         <h1><span class="secondary">Kapcsolat</span></h1>
         <div class="links">
             <a href="mailto:pasztohy.bence@gmail.com" target="_blank">

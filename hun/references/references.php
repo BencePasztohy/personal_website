@@ -5,11 +5,10 @@
 </head>
 
 <body id="bg-img">
-    <?php include("hun/header.html"); ?>
+    <?php include("hun/header.php"); ?>
 
     
     <main id="references">
-        <?php include('include/lang-selector.php'); ?>
         <h1><span class="secondary">Referenciáim</span> </h1>
         <div class="ref-container">
             <div class="item">

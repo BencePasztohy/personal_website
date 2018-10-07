@@ -5,10 +5,9 @@
 </head>
 
 <body id="bg-img">
-    <?php include("eng/header.html"); ?>
+    <?php include("eng/header.php"); ?>
 
     <main id="projects">
-        <?php include('include/lang-selector.php'); ?>
         <h1>My <span class="secondary">Projects</span> </h1>
         <div class="container">
         
@@ -20,7 +19,7 @@
                     <a href="https://github.com/BencePasztohy/Binary-Clock" target="_blank" class="button">GitHub Page</a>
                 </div>
                 <div>
-                    <a href="projects/binary_clock.php" class="button">More</a>
+                    <a href="eng/projects/binary_clock.php" class="button">More</a>
                 </div>
             </div>
             
@@ -32,7 +31,7 @@
                     <a href="https://github.com/BencePasztohy/Binary-Clock" target="_blank" class="button">GitHub Page</a>
                 </div>
                 <div>
-                    <a href="projects/php_subnet_calc.php" class="button">More</a>
+                    <a href="eng/projects/php_subnet_calc.php" class="button">More</a>
                 </div>
             </div>
 
@@ -44,7 +43,7 @@
                     <a href="https://github.com/BencePasztohy/personal_website" target="_blank" class="button">GitHub Page</a>
                 </div>
                 <div>
-                    <a href="projects/portfolio_website.php" class="button">More</a>
+                    <a href="eng/projects/portfolio_website.php" class="button">More</a>
                 </div>
             </div>
 
@@ -56,7 +55,7 @@
                     <a href="https://github.com/BencePasztohy/language-selector" target="_blank" class="button">GitHub Page</a>
                 </div>
                 <div>
-                    <a href="projects/language-selector.php" class="button">More</a>
+                    <a href="eng/projects/language-selector.php" class="button">More</a>
                 </div>
             </div>
         

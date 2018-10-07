@@ -21,6 +21,11 @@
             <a href="http://localhost/portfolio.ws/contact.php">
                 <li>Kapcsolat</li>
             </a>
+            <hr>
+            <a href="#" class="lang-selector">
+                <?php include('include/lang-selector.php'); ?>
+            </a>
         </ul>
     </nav>
+    
 </header>

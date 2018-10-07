@@ -5,10 +5,9 @@
 </head>
 
 <body id="bg-img">
-    <?php include("hun/header.html"); ?>
+    <?php include("hun/header.php"); ?>
 
     <main id="about">
-        <?php include('include/lang-selector.php'); ?>
         <h1>Infó <span class="secondary">Rólam</span></h1>
         <p>Üdv a személyes portfólió oldalamon. A nevem Pásztohy Bence, és kezdő webfejlesztő vagyok. Ennek az oldalnak a fő célja, hogy bemutassam szakmai képességeimet és tapasztalataimat. Tanulmányaim elsősorban IT és rendszergazdai tevékenységetek fedtek le, de már jó ideje érdeklődök a webfejlesztés iránt. A tudásom alapjait egyetemen kaptam, de nagy részét internetről szereztem. </p>
         <p>1992 december 19-én születtem Budapesten. 2013-ban OKJ végzettséget szereztem Általános Rendszergazda képesítéssel, 2017-ben pedig FSZ végzettséget Mérnök Informatika téren. </p>
